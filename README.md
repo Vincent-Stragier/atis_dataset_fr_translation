@@ -2,7 +2,7 @@
 
 This repository contains the translated transcription of the ATIS dataset. Only the sentences are translated, the tokens remains unmodified.
 
-The used code is inspired by this notebook https://www.kaggle.com/code/siddhadev/atis-dataset-clean-re-split-kernel/notebook.
+The used code is inspired by [this notebook](https://www.kaggle.com/code/siddhadev/atis-dataset-clean-re-split-kernel/notebook).
 
 The translation has been realized using Google Translate throught [Deep-Translator](https://github.com/nidhaloff/deep-translator).
 
