@@ -154,7 +154,7 @@ if __name__ == '__main__':
     ensure_directory(DATA_TRANSLATED_DIRECTORY)
 
     # List all the dataset files in data
-    def endswith(string: str, substring: str = '.iob') -> bool:
+    def endswith(string: str, substring: str = 'intent.iob') -> bool:
         return string.endswith(substring)
 
     dataset_files = filter(endswith, os.listdir(DATA_DIRECTORY))
